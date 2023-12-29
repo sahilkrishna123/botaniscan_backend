@@ -1,34 +1,44 @@
 # Virtual environment
+
 venv/
 
 # Byte-compiled / optimized / DLL files
-__pycache__/
+
+**pycache**/
 *.pyc
 *.pyo
 *.pyd
 
 # Logs
-*.log
+
+- .log
 
 # Local configuration
+
 instance/
 .env
 
 # Compiled Python files
-*.pyc
+
+- .pyc
 
 # Compiled C extensions
-*.so
+
+- .so
 
 # Database
+
 db.sqlite
 
 # User-specific files
+
 .vscode/
 .idea/
 
 # Environment variables file
+
 .env
 
 # Flask generated files
-__init__.pyc
+
+**init**.pyc
